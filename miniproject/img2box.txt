@@ -1,0 +1,9 @@
+Introduction
+
+The EAST algorithm uses a single neural network to predict a word or line-level text. It
+can detect text in arbitrary orientation with quadrilateral shapes. In 2017 this algo-
+rithm outperformed state of the art methods. This algorithm consists of a fully convo-
+lutional network with a non-max suppression (NMS) merging state. The fully convolu-
+tional network is used to localize text in the image and this NMS stage is basically
+used to merge many imprecise detected text boxes into a single bounding box for ev-
+ery text region (word or line text).
